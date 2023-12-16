@@ -56,21 +56,32 @@ class _CartPageBodyState extends State<CartPageBody> {
   final TextEditingController amountController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: const [
-        SizedBox(height: 10),
-        TitleWithButtonWidget(title: 'Order Review'),
-        SizedBox(height: 10),
-        CartItemList(),
-        SizedBox(height: 10),
-        SelectDateWidget(),
-        SizedBox(height: 10),
-        TotalAmountWidget(),
-        SizedBox(height: 10),
-        HardCopyWidget(),
-        SizedBox(height: 10),
-        ScheduleButton(),
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          TitleWithButtonWidget(title: 'Order Review'),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
+            child: CartItemList(),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
+            child: SelectDateWidget(),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
+            child: TotalAmountWidget(),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
+            child: HardCopyWidget(),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
+            child: ScheduleButton(),
+          ),
+        ],
+      ),
     );
   }
 }
