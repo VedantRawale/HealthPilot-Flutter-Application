@@ -21,8 +21,6 @@ This application is built as a part of my assignment for Flutter Developer Inter
 1) REST API Integration
 2) Firebase Integration (Authentication and Database)
 
-### Hey Team @Alemeno! I am eager to join you guys to build super cool Flutter Applications....I hope you will like my work! Waiting for positive response ...
-
 ## Some Sample Pics:
 
 <table>
