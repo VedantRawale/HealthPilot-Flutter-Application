@@ -1,6 +1,7 @@
 # 🧪 Health-Pilot Flutter Application
 
-This application was developed as part of my assignment for the **Flutter Developer Intern Role** at **Alemeno**. It aims to offer a seamless platform for users to explore, select, and book lab tests — integrating both frontend and backend capabilities with a clean microservice design.
+Health Pilot is a scalable and modular mobile application for booking lab tests and managing reports. It leverages a microservices-based backend with secure user authentication, a dynamic test catalog, and intelligent recommendations, all integrated into a seamless Flutter frontend.
+
 
 ---
 
