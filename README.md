@@ -25,15 +25,15 @@ This application is built as a part of my assignment for Flutter Developer Inter
 
 <table>
   <tr>
-    <td><img src="sample_images/healthpilot1.jfif" alt="Health Pilot Image 1"></td>
-    <td><img src="sample_images/healthpilot2.jfif" alt="Health Pilot Image 2"></td>
+    <td><img src="frontend/sample_images/healthpilot1.jfif" alt="Health Pilot Image 1"></td>
+    <td><img src="frontend/sample_images/healthpilot2.jfif" alt="Health Pilot Image 2"></td>
   </tr>
   <tr>
-    <td><img src="sample_images/healthpilot3.jfif" alt="Health Pilot Image 3"></td>
-    <td><img src="sample_images/healthpilot4.jfif" alt="Health Pilot Image 4"></td>
+    <td><img src="frontend/sample_images/healthpilot3.jfif" alt="Health Pilot Image 3"></td>
+    <td><img src="frontend/sample_images/healthpilot4.jfif" alt="Health Pilot Image 4"></td>
   </tr>
   <tr>
-    <td><img src="sample_images/healthpilot5.jfif" alt="Health Pilot Image 5"></td>
-    <td><img src="sample_images/healthpilot6.jfif" alt="Health Pilot Image 6"></td>
+    <td><img src="frontend/sample_images/healthpilot5.jfif" alt="Health Pilot Image 5"></td>
+    <td><img src="frontend/sample_images/healthpilot6.jfif" alt="Health Pilot Image 6"></td>
   </tr>
 </table>

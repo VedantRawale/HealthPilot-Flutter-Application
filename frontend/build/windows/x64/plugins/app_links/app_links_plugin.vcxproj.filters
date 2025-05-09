@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rawal\.vscode\HealthPilot\health_pilot\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\app_links_plugin_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rawal\.vscode\HealthPilot\health_pilot\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\app_links_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rawal\.vscode\HealthPilot\health_pilot\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\include\app_links\app_links_plugin_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rawal\.vscode\HealthPilot\health_pilot\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\app_links_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rawal\.vscode\HealthPilot\health_pilot\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D7C55095-2B25-3236-BDD0-50C920F3181A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8488A54D-2732-3500-A581-70530759D7B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

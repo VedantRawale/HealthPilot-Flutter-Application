@@ -1,0 +1,58 @@
+[
+    {
+        "id": "253",
+        "title": "Thyroid Profile",
+        "subtitle1": "Includes 3 tests",
+        "subtitle2": "Get reports in 24 hours",
+        "description": "------",
+        "originalprice": 1400,
+        "discountprice": 1000
+    },
+    {
+        "id": "341",
+        "title": "Iron Study Test",
+        "subtitle1": "Includes 4 tests",
+        "subtitle2": "Get reports in 24 hours",
+        "description": "------",
+        "originalprice": 1000,
+        "discountprice": 600
+    },
+    { 
+        "id": "431",
+        "title": "Blood Glucose Test",
+        "subtitle1": "Includes 3 tests",
+        "subtitle2": "Get reports in 24 hours",
+        "description": "------",
+        "originalprice": 2000,
+        "discountprice": 1500
+
+    },
+    {
+        "id": "518",
+        "title": "CBC Profile",
+        "subtitle1": "Includes 4 tests",
+        "subtitle2": "Get reports in 24 hours",
+        "description": "------",
+        "originalprice": 3500,
+        "discountprice": 3000
+
+    },
+    {
+        "id": "5",
+        "title": "Thyroid Profile",
+        "subtitle1": "Includes 3 tests",
+        "subtitle2": "Get reports in 24 hours",
+        "description": "------",
+        "originalprice": 1400,
+        "discountprice": 1000
+    },
+    {
+        "id": "6",
+        "title": "Iron Study Test",
+        "subtitle1": "Includes 4 tests",
+        "subtitle2": "Get reports in 24 hours",
+        "description": "------",
+        "originalprice": 1000,
+        "discountprice": 600
+    }
+]

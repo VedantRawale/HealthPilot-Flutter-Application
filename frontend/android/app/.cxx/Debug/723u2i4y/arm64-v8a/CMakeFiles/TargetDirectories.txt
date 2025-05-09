@@ -1,0 +1,2 @@
+C:/Users/rawal/.vscode/HealthPilot/health_pilot/android/app/.cxx/Debug/723u2i4y/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/rawal/.vscode/HealthPilot/health_pilot/android/app/.cxx/Debug/723u2i4y/arm64-v8a/CMakeFiles/rebuild_cache.dir
