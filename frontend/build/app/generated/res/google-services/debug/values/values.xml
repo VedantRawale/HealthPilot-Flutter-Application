@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">335967862448</string>
-    <string name="google_api_key" translatable="false">AIzaSyCOGhKtR3OgqiKYJTF2Y12V-0G_O64R2Is</string>
-    <string name="google_app_id" translatable="false">1:335967862448:android:092c6b8a28999f79e64575</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCOGhKtR3OgqiKYJTF2Y12V-0G_O64R2Is</string>
-    <string name="google_storage_bucket" translatable="false">healthpilot-29dc8.firebasestorage.app</string>
-    <string name="project_id" translatable="false">healthpilot-29dc8</string>
-</resources>
