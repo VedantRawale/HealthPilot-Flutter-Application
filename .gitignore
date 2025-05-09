@@ -1,27 +1,32 @@
-#############################
-# FRONTEND (Flutter) ignores
-#############################
+#################################
+# FRONTEND (Flutter)
+#################################
 
-# Dart/Flutter
+# Flutter/Dart related
 frontend/.dart_tool/
 frontend/.flutter-plugins
 frontend/.flutter-plugins-dependencies
 frontend/.packages
 frontend/.pub-cache/
 frontend/.pub/
-frontend/build/
 frontend/pubspec.lock
 
-# Android Studio artifacts
-frontend/android/app/debug
-frontend/android/app/profile
-frontend/android/app/release
+# Build artifacts
+frontend/build/
+**/build/
+**/*.ninja
+**/build_file_index.txt
+**/android_gradle_build*
+
+# IDE files
+frontend/.idea/
+frontend/.vscode/
 
 # Symbolication and obfuscation
 frontend/app.*.symbols
 frontend/app.*.map.json
 
-# Dart JS Outputs
+# Dart JS outputs
 frontend/*.dart.js
 frontend/*.info.json
 frontend/*.js
@@ -29,41 +34,59 @@ frontend/*.js_
 frontend/*.js.deps
 frontend/*.js.map
 
-# Documentation
-frontend/doc/api/
-
-# iOS build ID
+# iOS-specific
 frontend/ios/Flutter/.last_build_id
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/ephemeral/
 
-# IDE-specific (shared)
-frontend/.idea/
-frontend/.vscode/
+# macOS-specific
+frontend/macos/Flutter/ephemeral/
+frontend/macos/Pods/
 
-# Environment variables
-frontend/.env*
+# Windows-specific
+frontend/windows/flutter/ephemeral/
+frontend/windows/.dart_tool/
+frontend/windows/build/
+frontend/windows/ephemeral/
 
-#############################
-# BACKEND (Node.js/Express) ignores
-#############################
+# Linux-specific
+frontend/linux/flutter/ephemeral/
+frontend/linux/.dart_tool/
+frontend/linux/build/
+frontend/linux/ephemeral/
+
+# Web-specific
+frontend/web/.dart_tool/
+frontend/web/build/
+
+# APKs / Build output
+frontend/build/**/app*.apk
+frontend/build/**/app*.aab
+
+# Firebase SDK (if extracted locally)
+frontend/build/**/firebase_cpp_sdk*
+
+#################################
+# BACKEND (Node.js / Express)
+#################################
 
 backend/node_modules/
 backend/.env
 backend/.env.*
+backend/coverage/
+backend/dist/
+backend/logs/
+backend/uploads/
 backend/npm-debug.log*
 backend/yarn-debug.log*
 backend/yarn-error.log*
-backend/dist/
-backend/coverage/
-backend/logs/
 backend/*.log
-backend/uploads/
-
-# Optional if using TypeScript
 backend/*.tsbuildinfo
 
-#############################
+#################################
 # Shared / General ignores
-#############################
+#################################
 
 *.log
 *.class
@@ -75,8 +98,6 @@ backend/*.tsbuildinfo
 .history
 .svn/
 migrate_working_dir/
-
-# IDE settings
 .idea/
 .vscode/
 *.iml
